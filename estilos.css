@@ -1,0 +1,77 @@
+/* Estilos base */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.cabecera {
+    margin-bottom: 20px;
+}
+
+.cabecera h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.cabecera p {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+.mole {
+    background-image: url('img/mole.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.Cuadrado {
+    width: 25vw;
+    height: 25vw;
+    max-width: 150px;
+    max-height: 150px;
+    min-width: 80px;
+    min-height: 80px;
+    border-style: solid;
+    border-color: forestgreen;
+    margin: 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.Tablero {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    gap: 10px;
+}
+
+@media (max-width: 600px) {
+    .cabecera h1 {
+        font-size: 1.5rem;
+    }
+    
+    .cabecera p {
+        font-size: 1rem;
+    }
+    
+    .Cuadrado {
+        width: 30vw;
+        height: 30vw;
+    }
+}
+
+@media (max-width: 400px) {
+    .Cuadrado {
+        width: 28vw;
+        height: 28vw;
+        min-width: 70px;
+        min-height: 70px;
+    }
+}
