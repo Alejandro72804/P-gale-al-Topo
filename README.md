@@ -1,4 +1,4 @@
-# Gale al Topo
+# Pégale al Topo
 
 ## Descripción del Proyecto
 "Gale al Topo" es un emocionante juego de estrategia diseñado para desafiar la lógica de los jugadores mientras se sumergen en un entorno interactivo. El objetivo del juego es guiar a Gale, el personaje principal, a través de una serie de niveles llenos de obstáculos y enemigos, utilizando ingenio y habilidad para superar cada desafío.
